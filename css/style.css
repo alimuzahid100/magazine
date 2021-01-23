@@ -1,0 +1,478 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	line-height: 0px;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Merriweather', serif;
+
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+/******************************************
+**		header-section css code start 	 **
+*******************************************/
+.header-section{
+	width: 100%;
+	background: url(../images/Masthead1.png) center top no-repeat;
+	background-size: cover;
+	background-color: #cc171e;
+	position: relative;
+}
+
+.header-section .header-text{
+	width: 100%;
+	margin-top: 18px;
+}
+
+.header-section .header-text span{
+	font-size: 14px;
+	color:#c8c8c8;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.header-section .top-menu{
+	width: 100%;
+	margin-top: 40px;
+	text-align: right;
+}
+
+.header-section .top-menu img{
+	margin-right: 30px;
+}
+
+.header-section .bg-light{
+	width: 100%;
+	padding: 10px 0px;
+	background-color: transparent !important;
+	padding: 25px 0px 0px;
+	margin-top: 80px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+    margin-left: 12px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    font-size: 16px;
+    color:#fd634e;
+}
+
+.header-section .uline{
+	width: 100%;
+	height: 1px;
+	background-color: #656d74;
+	margin-top: -5px;
+}
+
+.header-section .vl {
+	border-left: 1px solid #656d74;
+	height: 1361px;
+	position: absolute;
+	left: 78px;
+	top: 0;
+	z-index: 1;
+}
+
+.header-section .heading{
+	position: relative;
+	width: 100%;
+	padding: 60px 0px 90px;
+}
+
+.header-section .heading h1 {
+    font-size: 170px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 69px 0px 0px 168px;
+}
+
+.header-section .heading .subtitle{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.header-section .heading .subtitle .date {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+	color: #fff;
+	margin-left: 49%;
+}
+.header-section .heading .subtitle h2 {
+    font-size: 36px;
+    line-height: 40px;
+	font-weight: 400;
+	font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+	width: 45%;
+	margin-left: 49%;
+}
+
+.header-section .heading .subtitle .plain-text {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+	width: 33%;
+	margin-left: 49%;
+}
+
+.article-section{
+	width: 100%;
+	padding: 20px 0px 275px;
+	background-color: #cc171e;
+	position: relative;
+}
+
+.article-section .ver-border{
+	border-left: 33px solid #fff;
+	height: 500px;
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+
+.article-section h2{
+	font-size: 32px;
+	color: #fff;
+	font-weight: 700;
+	margin-left: 136px;
+}
+
+.article-section .img1 {
+    position: absolute;
+    top: 85px;
+    right: 0px;
+}
+.article-section .img2 {
+    position: absolute;
+    top: 85px;
+    right: 210px;
+}
+.article-section .img3{
+	position: absolute;
+	top: 85px;
+	right: 460px;
+}
+.article-section .img4 {
+    position: absolute;
+    top: 85px;
+    right: 710px;
+}
+.article-section .img5 {
+    position: absolute;
+    top: 85px;
+    left: 149px;
+}
+
+.article-section .para5 {
+    margin: 0px 0px 0px 136px;
+    position: absolute;
+    right: -83px;
+    top: 268px;
+    width: 21%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.article-section .para4{
+	margin: 0px 0px 0px 136px;
+	position: absolute;
+	right: 166px;
+    top: 268px;
+    width: 21%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.article-section .para3{
+	margin: 0px 0px 0px 136px;
+	position: absolute;
+	left: 514px;
+    top: 268px;
+    width: 21%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.article-section .para2{
+	margin: 0px 0px 0px 136px;
+	position: absolute;
+	left:263px;
+    top: 268px;
+    width: 21%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.article-section .para1{
+	margin: 0px 0px 0px 136px;
+    position: absolute;
+    top: 268px;
+    width: 21%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+/* simpleBlue-section code start */
+
+.simpleBlue-section{
+	width: 100%;
+	padding: 180px 0px 230px;
+	background: url(../images/banner3.png) center top no-repeat;
+	background-size: cover;
+	background-color: #cc171e;
+}
+
+
+.simpleBlue-section .heading{
+	width: 100%;
+	padding: 40px 0px 150px;
+}
+.simpleBlue-section .heading p{
+	font-size: 14px;
+	color: #fff;	
+	text-transform: uppercase;
+}
+
+.simpleBlue-section .heading p span{
+	color: #d1232a;
+}
+
+.simpleBlue-section .heading h4 {
+    width: 86%;
+    font-size: 32px;
+    color: #fff;
+}
+
+.simpleBlue-section .heading h6{
+	width: 90%;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	font-family: 'Merriweather', serif;
+	margin-top: 25px;
+}
+
+.simpleBlue-section .simple-text{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.simpleBlue-section .second-simple-text{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.article-grid{
+	width: 100%;
+	padding: 30px 0px 565px;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+.article-grid .ver-border{
+	border-left: 33px solid #fff;
+	height: 596px;
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+.article-grid .first {
+	position: absolute;
+	left: 151px;
+}
+
+.article-grid .second {
+	position: absolute;
+	left: 473px;
+}
+
+.article-grid .third {
+	position: absolute;
+	right: 249px;
+}
+
+.article-grid .forth {
+	position: absolute;
+	right: -73px;
+}
+
+.article-grid .card-body {
+   padding: 20px;
+}
+
+.article-grid .card-text {
+    margin-bottom: 0;
+    font-size: 13.5px;
+    line-height: 23px;
+	margin: 15px 0px 40px;
+	color:#656d74;
+}
+
+.article-grid .card-footer {
+    position: relative;
+    padding: 22.5px 0px;
+    background-color: #fff;
+}
+.article-grid .card-footer .tag img{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.article-grid .card-footer .icon{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/* about section code start */
+
+.about-section{
+	width: 100%;
+	background: url(../images/fbanner.png) center top no-repeat;
+	background-size: cover;
+	background-color: #cc171e;
+	position: relative;
+	padding: 0px 0px 65px;
+}
+
+.about-section .header-text{
+	width: 100%;
+	margin-top: 24px;
+}
+
+.about-section .header-text span{
+	font-size: 14px;
+	color:#c8c8c8;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.about-section .uline{
+	width: 100%;
+	height: 1px;
+	background-color: #656d74;
+	margin-top: 270px;
+	margin-left: 52px;
+}
+
+.about-section .vl {
+    border-left: 1px solid #656d74;
+    height: 843px;
+    position: absolute;
+    left: 78px;
+    top: 44px;
+    z-index: 1;
+}
+
+.about-section .heading{
+	position: relative;
+	width: 100%;
+	padding: 60px 0px 90px;
+}
+
+.about-section .heading h1 {
+    font-size: 170px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 69px 0px 0px 168px;
+}
+
+.about-section .heading .subtitle{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.about-section .heading .subtitle .date {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+	color: #fff;
+	margin-left: 49%;
+}
+.about-section .heading .subtitle h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+	width: 45%;
+	margin-left: 49%;
+}
+
+.about-section .heading .subtitle .plain-text {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+	width: 33%;
+	margin-left: 49%;
+}
+
+.footer-section{
+	width: 100%;
+	position: relative;
+	padding: 80px 0px;
+	background-color: #11161d;
+}
+.footer-section .logo{
+	position: absolute;
+	top: 102px;
+	left: 0;
+}
+.footer-section .first-para{
+	width: 74%;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.footer-section .simple-para{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.footer-section .social-menu{
+	display: block;
+	margin:51px 0px 0px;
+	padding: 0;
+}
+
+.footer-section .social-menu li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+
+	
+}
+
+.footer-section .form-control-plaintext {
+    color: #fff;
+
+}

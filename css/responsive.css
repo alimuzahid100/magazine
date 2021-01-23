@@ -1,0 +1,9 @@
+@media (max-width:1920px){
+    .header-section .navbar-expand-lg .navbar-toggler {
+        display: block;
+    }
+
+    .header-section .collapse {
+        display: none !important;
+    }
+}
